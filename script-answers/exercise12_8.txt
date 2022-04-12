@@ -1,0 +1,12 @@
+Commands:
+
+docker-compose -f docker-compose.dev.yml up
+docker container ls
+docker exec -it 7e7 bash
+mongosh -u the_username -p the_password --authenticationDatabase the_database
+show databases
+use the_database
+show collections
+db.todos.insertOne( {"text" : "Use containers", "done" : true } )
+exit
+exit
