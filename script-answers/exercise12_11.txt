@@ -1,0 +1,12 @@
+Commands:
+
+docker-compose -f docker-compose.dev.yml up
+docker container ls
+docker exec -it ebe bash
+redis-cli
+KEYS *
+KEYS *
+SET visits 9001
+DELETE visits
+exit 
+exit
